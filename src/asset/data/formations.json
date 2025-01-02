@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "Initiation à la photographie",
+      "description": "Apprenez les bases de la photographie avec des professionnels.",
+      "charge": 20,
+      "photo": "/assets/photos/photography.jpg",
+      "program": "/assets/programs/photography.pdf",
+      "categories": ["Art", "Créativité"],
+      "keywords": ["photo", "art", "créativité"]
+    },
+    {
+      "id": 2,
+      "title": "Cuisine pour débutants",
+      "description": "Maîtrisez les bases de la cuisine française et internationale.",
+      "charge": 30,
+      "photo": "/assets/photos/cooking.jpg",
+      "program": "/assets/programs/cooking.pdf",
+      "categories": ["Cuisine", "Loisir"],
+      "keywords": ["cuisine", "gastronomie"]
+    }
+  ]
+  

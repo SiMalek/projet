@@ -1,0 +1,19 @@
+<div class="container mt-5">
+    <h2>Rechercher une Formation</h2>
+    <input
+      type="text"
+      class="form-control mb-3"
+      [(ngModel)]="searchQuery"
+      (input)="search()"
+      placeholder="Recherchez par titre..."
+    />
+    <div *ngFor="let formation of filteredFormations" class="card mb-3">
+      <img [src]="formation.photo" class="card-img-top" alt="Photo de {{ formation.title }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ formation.title }}</h5>
+        <p class="card-text">{{ formation.description }}</p>
+        <a [routerLink]="['/formations', formation.id]" class="btn btn-primary">Voir Détails</a>
+      </div>
+    </div>
+  </div>
+  

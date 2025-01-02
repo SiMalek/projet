@@ -1,0 +1,11 @@
+<div class="container mt-5">
+    <h2>Liste des Formations</h2>
+    <div *ngFor="let formation of formations" class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">{{ formation.title }}</h5>
+        <p class="card-text">{{ formation.description }}</p>
+        <a [routerLink]="['/formations', formation.id]" class="btn btn-primary">Détails</a>
+      </div>
+    </div>
+  </div>
+  

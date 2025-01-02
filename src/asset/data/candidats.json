@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "firstName": "David",
+      "lastName": "Lemoine",
+      "email": "david.lemoine@example.com",
+      "phone": "222-333-4444",
+      "photo": "/assets/photos/david.jpg",
+      "registeredFormations": [1, 2]
+    },
+    {
+      "id": 2,
+      "firstName": "Emma",
+      "lastName": "Robert",
+      "email": "emma.robert@example.com",
+      "phone": "111-222-3333",
+      "photo": "/assets/photos/emma.jpg",
+      "registeredFormations": [2]
+    }
+  ]
+  
